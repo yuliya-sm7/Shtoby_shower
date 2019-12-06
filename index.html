@@ -9,196 +9,159 @@
         .shower {
             --slide-ratio: calc(16 / 9);
         }
+
+        .first {
+            background-color: #4b86c2;}
+        .first h2 {
+            margin: 30px 0 0;
+            color: white;
+            text-align: center;
+            font-size: 70px;
+            font-family: Roboto,serif;
+        }
+
+        .first p {
+            margin: 10px 0 0;
+            text-align: center;
+            color: white;
+            font-style: italic;
+            font-size: 20px;
+        }
+
+        .first p a {
+            color: white;
+        }
     </style>
 </head>
 <body class="shower list">
 
-    <header class="caption">
-        <h1>Shower Presentation Engine</h1>
-        <p>Yours Truly, Famous Inc.</p>
-    </header>
+<header class="caption">
+    <h1>Trellolo</h1>
+    <p>by Shtoby shto?</p>
+</header>
 
-    <section class="slide" id="cover">
-        <h2>Shower Presentation Engine</h2>
-        <p>Brought to you by <a href="http://pepelsbey.net">Vadim Makeev</a></p>
-        <figure>
-            <img class="cover" src="pictures/cover.jpg" alt="Hands on the orange typewriter in a park">
-            <figcaption class="copyright right white">
-                <a href="http://fiftyfootshadows.net/">© John Carey</a>
-            </figcaption>
-        </figure>
-        <style>
-            #cover h2 {
-                margin: 30px 0 0;
-                color: white;
-                text-align: center;
-                font-size: 70px;
-            }
+<section class="slide first" id="part1">
+    <h2>Trellolo</h2>
+    <p>by Shtoby shto? team</p>
+    <figure>
+        <!--            <img class="cover" src="pictures/hero-a.svg" alt="Default picture from original Trello">-->
+        <!--            <figcaption class="copyright right white">-->
+        <!--                <a>© John Carey</a>-->
+        <!--            </figcaption>-->
+    </figure>
+    <style>
+        #cover h2 {
+            margin: 30px 0 0;
+            color: white;
+            text-align: center;
+            font-size: 70px;
+            font-family: Roboto,serif;
+        }
 
-            #cover p {
-                margin: 10px 0 0;
-                text-align: center;
-                color: white;
-                font-style: italic;
-                font-size: 20px;
-            }
+        #cover p {
+            margin: 10px 0 0;
+            text-align: center;
+            color: white;
+            font-style: italic;
+            font-size: 20px;
+        }
 
-            #cover p a {
-                color: white;
-            }
-        </style>
-    </section>
+        #cover p a {
+            color: white;
+        }
+    </style>
+</section>
 
-    <section class="slide">
-        <h2>Shower key features</h2>
-        <ol>
-            <li>Built on HTML, CSS and JavaScript</li>
-            <li>Works in all modern browsers</li>
-            <li>Themes are separated from engine</li>
-            <li>Fully keyboard accessible</li>
-            <li>Printable to PDF</li>
-        </ol>
-        <p class="note">Shower ['ʃəuə] noun. A person or thing that shows.</p>
-    </section>
+<section class="slide" id="1">
+    <h2>Команда:</h2>
+    <ul>
+        <li>Сергей Барсуков - Mentor </li>
+        <li><a href="https://github.com/WeCodingNow">Андреев Алексей</a> - Fullstack</li>
+        <li><a href="https://github.com/yuliya-sm7">Смирнова Юлия</a> - Frontend </li>
+        <li><a href="https://github.com/Alexosis">Молчанов Алексей</a> - Frontend </li>
+        <li><a href="https://github.com/aleksandrkhoroshenin">Хорошенин Александр</a> - Backend </li>
+    </ul>
+    <p class="note">Моя команда по спасению мира от зомби</p>
+</section>
 
-    <section class="slide">
-        <h2>Plain text on your slides</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur <a href="#4">adipisicing</a> elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, <em>quis nostrud</em> exercitation ullamco laboris <strong>nisi ut aliquip</strong> ex ea commodo consequat. Duis aute irure <i>dolor</i> in reprehenderit in voluptate velit esse cillum <b>dolore</b> eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in <code>&lt;culpa&gt;</code> qui officia deserunt mollit anim id est laborum.</p>
-    </section>
+<section class="slide" id="2">
+    <h2>Идея проекта</h2>
+    <p>Реализовать Канбан-доску - инструмент для планирования и управления проектом с помощью карточек с задачами.</p>
+    <a href="https://front.aleshka2012.now.sh/#/"><img style="width: 50%; border: none" src="pictures/Simple-kanban-board-.jpg"
+                                                       alt="Доска"></a>
+</section>
 
-    <section class="slide">
-        <h2>Two columns if you like</h2>
-        <div class="columns two">
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p>
-            <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia.</p>
-        </div>
-    </section>
+<section class="slide" id="3">
+    <h2>Ключевые требования</h2>
+    <ol>
+        <li>Отображение профиля пользователя</li>
+        <li>Создание канбан-доски</li>
+        <li>Создание групп карточек</li>
+        <li>Создание карточки по названию</li>
+        <li>Добавление комментариев к карточке</li>
+        <li>Командная работа над одной доской</li>
+    </ol>
+</section>
 
-    <section class="slide">
-        <h2>All kind of lists</h2>
-        <ol>
-            <li>Simple lists are marked with bullets</li>
-            <li>Ordered lists begin with a number</li>
-            <li>You can even nest lists one inside another
-                <ul>
-                    <li>Or mix their types</li>
-                    <li>But do not go too far</li>
-                    <li>Otherwise audience will be bored</li>
-                </ul>
-            </li>
-            <li>Look, seven rows exactly!</li>
-        </ol>
-    </section>
+<section class="slide" id="33">
+    <h2>Аналоги</h2>
+    <a href="https://front.aleshka2012.now.sh/#/"><img style="width: 100%; border: none" src="pictures/01_ru.png" alt="Trello"></a>
+</section>
 
-    <section class="slide">
-        <h2>Serious citations</h2>
-        <figure>
-            <blockquote>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia.</p>
-            </blockquote>
-            <figcaption>Marcus Tullius Cicero</figcaption>
-        </figure>
-    </section>
+<section class="slide" id="4">
+    <h2>Основные сущности</h2>
+    <div class="columns two">
+        <p>Доска — самая круппная модель, объединяющая группы и задачи</p>
+        <p>Группа задач — список дел, который включает в себя несколько задач или пунктов</p>
+        <p>Задача — самая маленькая, но самая основная модель, именно она определяет чем тебе стоит сегодня заняться</p>
+    </div>
+</section>
 
-    <section class="slide">
-        <h2>Code samples</h2>
-        <pre>
-            <code>&lt;!DOCTYPE html&gt;</code>
-            <code class="mark">&lt;html lang="en"&gt;</code>
-            <code><mark>&lt;head&gt;</mark> <span class="comment">&lt;!--Comment--&gt;</span></code>
-            <code>    &lt;title&gt;Shower&lt;/title&gt;</code>
-            <code>    &lt;meta charset="<mark class="important">UTF-8</mark>"&gt;</code>
-            <code>    &lt;link rel="stylesheet" href="screen.css"&gt;</code>
-            <code><mark>&lt;/head&gt;</mark></code>
-        </pre>
-    </section>
+<section class="slide first" id="part3">
+    <h2 style="font-family: Roboto,serif">Backend</h2>
+</section>
 
-    <section class="slide">
-        <h2>Even tables</h2>
-        <table>
-        <tr>
-            <th scope="col">Locavore</th>
-            <th>Umami</th>
-            <th>Helvetica</th>
-            <th>Vegan</th>
-        </tr>
-        <tr>
-            <th scope="row">Fingerstache</th>
-            <td>Kale</td>
-            <td>Chips</td>
-            <td>Keytar</td>
-        </tr>
-        <tr>
-            <th scope="row">Sriracha</th>
-            <td>Gluten-free</td>
-            <td>Ennui</td>
-            <td>Keffiyeh</td>
-        </tr>
-        <tr>
-            <th scope="row">Thundercats</th>
-            <td>Jean</td>
-            <td>Shorts</td>
-            <td>Biodiesel</td>
-        </tr>
-        <tr>
-            <th scope="row">Terry</th>
-            <td>Richardson</td>
-            <td>Swag</td>
-            <td>Blog</td>
-        </tr>
-        </table>
-        <p>It’s good to have information organized.</p>
-    </section>
+<section class="slide" id="5">
+    <h2>Стек технологий</h2>
+    <ul>
+        <li>Postgres</li><img src='pictures/postgres.png' style="width: 60px"></img>
+        <li>Redis</li><img src='pictures/redis.png' style="width: 60px"></img>
+        <li>Docker-compose</li><img src='pictures/compose.png' style="width: 60px"></img>
+    </ul>
+</section>
 
-    <section class="slide" id="picture">
-        <h2>Pictures</h2>
-        <figure>
-            <img class="cover" src="pictures/picture.jpg" alt="Orange typewriter on a wooden table close-up">
-            <figcaption class="copyright right white">
-                <a href="http://fiftyfootshadows.net/">© John Carey</a>
-            </figcaption>
-        </figure>
-        <style>
-            #picture h2 {
-                color: white;
-            }
-        </style>
-    </section>
+<section class="slide" id="6">
+    <h2>Даталогическая модель БД</h2>
+    <img src="pictures/datalogic.png" style="width: 85%"></img>
+</section>
 
-    <section class="slide">
-        <h2 class="shout shrink">You can even shout this way</h2>
-    </section>
+<section class="slide first" id="part4">
+    <h2 style="font-family: Roboto,serif">Frontend</h2>
+</section>
 
-    <section class="slide">
-        <h2>Inner navigation</h2>
-        <ol>
-            <li>Lets you reveal list items one by one</li>
-            <li class="next">To keep some key points</li>
-            <li class="next">In secret from audience</li>
-            <li class="next">But it will work only once</li>
-            <li class="next">Nobody wants to see the same joke twice</li>
-        </ol>
-    </section>
+<section class="slide" id="7">
+    <h2>Компонентная архитектура</h2>
+    <img src="pictures/comp_architecture.png" alt="вход" style="width: 65%">
+</section>
 
-    <section class="slide" id="see-more">
-        <h2 class="shout">
-            <img src="pictures/logo.svg" alt="Shower logo">
-            <a href="https://github.com/shower/shower">See more on GitHub</a>
-        </h2>
-        <style>
-            #see-more h2 {
-                font-size: 100px
-            }
+<section class="slide" id="8">
+    <h2>Компонентная архитектура</h2>
+    <img src="pictures/front_slides%20(1).png" alt="структура" style="width: 60%">
+</section>
 
-            #see-more img {
-                width: 0.72em;
-                height: 0.72em;
-            }
-        </style>
-    </section>
+<section class="slide" id="9">
+    <img src="pictures/redux_flow.png" alt="структура1" class="left" style="width: 70%">
+    <img src="pictures/flux_workflow.png" alt="workfolw" class="place next" style="width: 70%; border: 1px solid white">
+    <img src="pictures/subscription.png" alt="workfolw" class="place right next" style="width: 40%; border: 1px solid white">
+</section>
+
+<section class="slide first" id="part5">
+    <h2 style="font-family: Roboto,serif">Демонстрация</h2>
+</section>
+
 
     <footer class="badge">
-        <a href="https://github.com/shower/shower">Fork me on GitHub</a>
+        <a href="https://front.aleshka2012.now.sh/">Check me out!</a>
     </footer>
 
     <div class="progress"></div>
